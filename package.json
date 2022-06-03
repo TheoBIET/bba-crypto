@@ -1,0 +1,22 @@
+{
+  "name": "ddd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "dayjs": "^1.11.2",
+    "discord-api-types": "^0.33.2",
+    "discord.js": "^13.7.0",
+    "dotenv": "^16.0.1",
+    "puppeteer": "^14.2.1",
+    "short-number": "^1.0.7"
+  }
+}
